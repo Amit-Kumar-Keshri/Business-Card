@@ -5,8 +5,10 @@
     --color-Dark : hsl(228, 12%, 48%) ;
     --color-White: hsl(0, 0%, 100%);
 }
+
+
 body {
-    background: var(--color-cream);
+    /* background: var(--color-cream); */
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
 }
@@ -17,13 +19,14 @@ p{
 
 button{
     margin-left: 10px;
-    padding: 20px 100px;
+    padding: 20px 90px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: var(--color-White);
     background-color: var(--color-primary);
     border-radius: 20px;
     border: none;
+    cursor: pointer;
     
 }
 .price{
@@ -33,9 +36,14 @@ button{
 .main{
     display: flex;
     justify-content: center;
+    background: var(--color-cream);
     align-items: center;
-    margin-top: 400px;
-    
+    /* margin-top: 400px; */
+    height: 85vh;
+    width: 85vw;
+    margin: 100px 100px;
+    margin-right: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .img{
